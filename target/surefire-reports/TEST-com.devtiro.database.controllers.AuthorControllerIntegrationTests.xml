@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="14.111" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="11.929" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\target\test-classes;C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\target\classes;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.0\spring-boot-starter-web-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.0\spring-boot-starter-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot\3.1.0\spring-boot-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.0\spring-boot-autoconfigure-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.0\spring-boot-starter-logging-3.1.0.jar;C:\Users\andri\.m2\repository\ch\qos\logback\logback-classic\1.4.7\logback-classic-1.4.7.jar;C:\Users\andri\.m2\repository\ch\qos\logback\logback-core\1.4.7\logback-core-1.4.7.jar;C:\Users\andri\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\andri\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\andri\.m2\repository\org\slf4j\jul-to-slf4j\2.0.7\jul-to-slf4j-2.0.7.jar;C:\Users\andri\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\andri\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.0\spring-boot-starter-json-3.1.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.0\jackson-datatype-jdk8-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.0\jackson-datatype-jsr310-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.0\jackson-module-parameter-names-2.15.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.0\spring-boot-starter-tomcat-3.1.0.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.8\tomcat-embed-core-10.1.8.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.8\tomcat-embed-el-10.1.8.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.8\tomcat-embed-websocket-10.1.8.jar;C:\Users\andri\.m2\repository\org\springframework\spring-web\6.0.9\spring-web-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-beans\6.0.9\spring-beans-6.0.9.jar;C:\Users\andri\.m2\repository\io\micrometer\micrometer-observation\1.11.0\micrometer-observation-1.11.0.jar;C:\Users\andri\.m2\repository\io\micrometer\micrometer-commons\1.11.0\micrometer-commons-1.11.0.jar;C:\Users\andri\.m2\repository\org\springframework\spring-webmvc\6.0.9\spring-webmvc-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-aop\6.0.9\spring-aop-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-context\6.0.9\spring-context-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-expression\6.0.9\spring-expression-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.1.0\spring-boot-starter-data-jpa-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.1.0\spring-boot-starter-aop-3.1.0.jar;C:\Users\andri\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.1.0\spring-boot-starter-jdbc-3.1.0.jar;C:\Users\andri\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\andri\.m2\repository\org\springframework\spring-jdbc\6.0.9\spring-jdbc-6.0.9.jar;C:\Users\andri\.m2\repository\org\hibernate\orm\hibernate-core\6.2.2.Final\hibernate-core-6.2.2.Final.jar;C:\Users\andri\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\andri\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\andri\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\andri\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\andri\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar;C:\Users\andri\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\andri\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\andri\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\andri\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\andri\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\andri\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\andri\.m2\repository\org\springframework\data\spring-data-jpa\3.1.0\spring-data-jpa-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\data\spring-data-commons\3.1.0\spring-data-commons-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\spring-orm\6.0.9\spring-orm-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-tx\6.0.9\spring-tx-6.0.9.jar;C:\Users\andri\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\andri\.m2\repository\org\springframework\spring-aspects\6.0.9\spring-aspects-6.0.9.jar;C:\Users\andri\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\andri\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\andri\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\andri\.m2\repository\org\modelmapper\modelmapper\3.0.0\modelmapper-3.0.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.1.0\spring-boot-starter-test-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-test\3.1.0\spring-boot-test-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.1.0\spring-boot-test-autoconfigure-3.1.0.jar;C:\Users\andri\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\andri\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\andri\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\andri\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\andri\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\andri\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\andri\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\andri\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\andri\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\andri\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\andri\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\andri\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\andri\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\andri\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\andri\.m2\repository\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;C:\Users\andri\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\andri\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\andri\.m2\repository\org\springframework\spring-core\6.0.9\spring-core-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-jcl\6.0.9\spring-jcl-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-test\6.0.9\spring-test-6.0.9.jar;C:\Users\andri\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\andri\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;"/>
+    <property name="java.class.path" value="C:\Users\andri\Downloads\APi\spring-api\target\test-classes;C:\Users\andri\Downloads\APi\spring-api\target\classes;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.0\spring-boot-starter-web-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.0\spring-boot-starter-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot\3.1.0\spring-boot-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.0\spring-boot-autoconfigure-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.0\spring-boot-starter-logging-3.1.0.jar;C:\Users\andri\.m2\repository\ch\qos\logback\logback-classic\1.4.7\logback-classic-1.4.7.jar;C:\Users\andri\.m2\repository\ch\qos\logback\logback-core\1.4.7\logback-core-1.4.7.jar;C:\Users\andri\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\andri\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\andri\.m2\repository\org\slf4j\jul-to-slf4j\2.0.7\jul-to-slf4j-2.0.7.jar;C:\Users\andri\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\andri\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.0\spring-boot-starter-json-3.1.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.0\jackson-datatype-jdk8-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.0\jackson-datatype-jsr310-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.0\jackson-module-parameter-names-2.15.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.0\spring-boot-starter-tomcat-3.1.0.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.8\tomcat-embed-core-10.1.8.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.8\tomcat-embed-el-10.1.8.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.8\tomcat-embed-websocket-10.1.8.jar;C:\Users\andri\.m2\repository\org\springframework\spring-web\6.0.9\spring-web-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-beans\6.0.9\spring-beans-6.0.9.jar;C:\Users\andri\.m2\repository\io\micrometer\micrometer-observation\1.11.0\micrometer-observation-1.11.0.jar;C:\Users\andri\.m2\repository\io\micrometer\micrometer-commons\1.11.0\micrometer-commons-1.11.0.jar;C:\Users\andri\.m2\repository\org\springframework\spring-webmvc\6.0.9\spring-webmvc-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-aop\6.0.9\spring-aop-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-context\6.0.9\spring-context-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-expression\6.0.9\spring-expression-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.1.0\spring-boot-starter-data-jpa-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.1.0\spring-boot-starter-aop-3.1.0.jar;C:\Users\andri\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.1.0\spring-boot-starter-jdbc-3.1.0.jar;C:\Users\andri\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\andri\.m2\repository\org\springframework\spring-jdbc\6.0.9\spring-jdbc-6.0.9.jar;C:\Users\andri\.m2\repository\org\hibernate\orm\hibernate-core\6.2.2.Final\hibernate-core-6.2.2.Final.jar;C:\Users\andri\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\andri\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\andri\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\andri\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\andri\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar;C:\Users\andri\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\andri\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\andri\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\andri\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\andri\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\andri\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\andri\.m2\repository\org\springframework\data\spring-data-jpa\3.1.0\spring-data-jpa-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\data\spring-data-commons\3.1.0\spring-data-commons-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\spring-orm\6.0.9\spring-orm-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-tx\6.0.9\spring-tx-6.0.9.jar;C:\Users\andri\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\andri\.m2\repository\org\springframework\spring-aspects\6.0.9\spring-aspects-6.0.9.jar;C:\Users\andri\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\andri\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\andri\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\andri\.m2\repository\org\modelmapper\modelmapper\3.0.0\modelmapper-3.0.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.1.0\spring-boot-starter-test-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-test\3.1.0\spring-boot-test-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.1.0\spring-boot-test-autoconfigure-3.1.0.jar;C:\Users\andri\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\andri\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\andri\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\andri\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\andri\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\andri\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\andri\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\andri\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\andri\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\andri\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\andri\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\andri\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\andri\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\andri\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\andri\.m2\repository\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;C:\Users\andri\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\andri\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\andri\.m2\repository\org\springframework\spring-core\6.0.9\spring-core-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-jcl\6.0.9\spring-jcl-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-test\6.0.9\spring-test-6.0.9.jar;C:\Users\andri\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\andri\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CH"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\andri\AppData\Local\Temp\surefire9536995549131425092\surefirebooter-20230906145048273_3.jar C:\Users\andri\AppData\Local\Temp\surefire9536995549131425092 2023-09-06T14-50-47_974-jvmRun1 surefire-20230906145048273_1tmp surefire_0-20230906145048273_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\andri\AppData\Local\Temp\surefire12268993829751684382\surefirebooter-20230906163503453_3.jar C:\Users\andri\AppData\Local\Temp\surefire12268993829751684382 2023-09-06T16-35-03_063-jvmRun1 surefire-20230906163503453_1tmp surefire_0-20230906163503453_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\target\test-classes;C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\target\classes;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.0\spring-boot-starter-web-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.0\spring-boot-starter-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot\3.1.0\spring-boot-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.0\spring-boot-autoconfigure-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.0\spring-boot-starter-logging-3.1.0.jar;C:\Users\andri\.m2\repository\ch\qos\logback\logback-classic\1.4.7\logback-classic-1.4.7.jar;C:\Users\andri\.m2\repository\ch\qos\logback\logback-core\1.4.7\logback-core-1.4.7.jar;C:\Users\andri\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\andri\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\andri\.m2\repository\org\slf4j\jul-to-slf4j\2.0.7\jul-to-slf4j-2.0.7.jar;C:\Users\andri\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\andri\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.0\spring-boot-starter-json-3.1.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.0\jackson-datatype-jdk8-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.0\jackson-datatype-jsr310-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.0\jackson-module-parameter-names-2.15.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.0\spring-boot-starter-tomcat-3.1.0.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.8\tomcat-embed-core-10.1.8.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.8\tomcat-embed-el-10.1.8.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.8\tomcat-embed-websocket-10.1.8.jar;C:\Users\andri\.m2\repository\org\springframework\spring-web\6.0.9\spring-web-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-beans\6.0.9\spring-beans-6.0.9.jar;C:\Users\andri\.m2\repository\io\micrometer\micrometer-observation\1.11.0\micrometer-observation-1.11.0.jar;C:\Users\andri\.m2\repository\io\micrometer\micrometer-commons\1.11.0\micrometer-commons-1.11.0.jar;C:\Users\andri\.m2\repository\org\springframework\spring-webmvc\6.0.9\spring-webmvc-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-aop\6.0.9\spring-aop-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-context\6.0.9\spring-context-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-expression\6.0.9\spring-expression-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.1.0\spring-boot-starter-data-jpa-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.1.0\spring-boot-starter-aop-3.1.0.jar;C:\Users\andri\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.1.0\spring-boot-starter-jdbc-3.1.0.jar;C:\Users\andri\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\andri\.m2\repository\org\springframework\spring-jdbc\6.0.9\spring-jdbc-6.0.9.jar;C:\Users\andri\.m2\repository\org\hibernate\orm\hibernate-core\6.2.2.Final\hibernate-core-6.2.2.Final.jar;C:\Users\andri\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\andri\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\andri\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\andri\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\andri\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar;C:\Users\andri\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\andri\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\andri\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\andri\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\andri\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\andri\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\andri\.m2\repository\org\springframework\data\spring-data-jpa\3.1.0\spring-data-jpa-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\data\spring-data-commons\3.1.0\spring-data-commons-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\spring-orm\6.0.9\spring-orm-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-tx\6.0.9\spring-tx-6.0.9.jar;C:\Users\andri\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\andri\.m2\repository\org\springframework\spring-aspects\6.0.9\spring-aspects-6.0.9.jar;C:\Users\andri\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\andri\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\andri\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\andri\.m2\repository\org\modelmapper\modelmapper\3.0.0\modelmapper-3.0.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.1.0\spring-boot-starter-test-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-test\3.1.0\spring-boot-test-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.1.0\spring-boot-test-autoconfigure-3.1.0.jar;C:\Users\andri\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\andri\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\andri\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\andri\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\andri\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\andri\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\andri\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\andri\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\andri\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\andri\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\andri\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\andri\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\andri\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\andri\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\andri\.m2\repository\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;C:\Users\andri\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\andri\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\andri\.m2\repository\org\springframework\spring-core\6.0.9\spring-core-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-jcl\6.0.9\spring-jcl-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-test\6.0.9\spring-test-6.0.9.jar;C:\Users\andri\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\andri\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\andri\Downloads\APi\spring-api\target\test-classes;C:\Users\andri\Downloads\APi\spring-api\target\classes;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.0\spring-boot-starter-web-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.0\spring-boot-starter-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot\3.1.0\spring-boot-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.0\spring-boot-autoconfigure-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.0\spring-boot-starter-logging-3.1.0.jar;C:\Users\andri\.m2\repository\ch\qos\logback\logback-classic\1.4.7\logback-classic-1.4.7.jar;C:\Users\andri\.m2\repository\ch\qos\logback\logback-core\1.4.7\logback-core-1.4.7.jar;C:\Users\andri\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\andri\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\andri\.m2\repository\org\slf4j\jul-to-slf4j\2.0.7\jul-to-slf4j-2.0.7.jar;C:\Users\andri\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\andri\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.0\spring-boot-starter-json-3.1.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.0\jackson-datatype-jdk8-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.0\jackson-datatype-jsr310-2.15.0.jar;C:\Users\andri\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.0\jackson-module-parameter-names-2.15.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.0\spring-boot-starter-tomcat-3.1.0.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.8\tomcat-embed-core-10.1.8.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.8\tomcat-embed-el-10.1.8.jar;C:\Users\andri\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.8\tomcat-embed-websocket-10.1.8.jar;C:\Users\andri\.m2\repository\org\springframework\spring-web\6.0.9\spring-web-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-beans\6.0.9\spring-beans-6.0.9.jar;C:\Users\andri\.m2\repository\io\micrometer\micrometer-observation\1.11.0\micrometer-observation-1.11.0.jar;C:\Users\andri\.m2\repository\io\micrometer\micrometer-commons\1.11.0\micrometer-commons-1.11.0.jar;C:\Users\andri\.m2\repository\org\springframework\spring-webmvc\6.0.9\spring-webmvc-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-aop\6.0.9\spring-aop-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-context\6.0.9\spring-context-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-expression\6.0.9\spring-expression-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.1.0\spring-boot-starter-data-jpa-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.1.0\spring-boot-starter-aop-3.1.0.jar;C:\Users\andri\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.1.0\spring-boot-starter-jdbc-3.1.0.jar;C:\Users\andri\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\andri\.m2\repository\org\springframework\spring-jdbc\6.0.9\spring-jdbc-6.0.9.jar;C:\Users\andri\.m2\repository\org\hibernate\orm\hibernate-core\6.2.2.Final\hibernate-core-6.2.2.Final.jar;C:\Users\andri\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\andri\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\andri\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\andri\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\andri\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar;C:\Users\andri\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\andri\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\andri\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\andri\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\andri\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\andri\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\andri\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\andri\.m2\repository\org\springframework\data\spring-data-jpa\3.1.0\spring-data-jpa-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\data\spring-data-commons\3.1.0\spring-data-commons-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\spring-orm\6.0.9\spring-orm-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-tx\6.0.9\spring-tx-6.0.9.jar;C:\Users\andri\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\andri\.m2\repository\org\springframework\spring-aspects\6.0.9\spring-aspects-6.0.9.jar;C:\Users\andri\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\andri\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\andri\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\andri\.m2\repository\org\modelmapper\modelmapper\3.0.0\modelmapper-3.0.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.1.0\spring-boot-starter-test-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-test\3.1.0\spring-boot-test-3.1.0.jar;C:\Users\andri\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.1.0\spring-boot-test-autoconfigure-3.1.0.jar;C:\Users\andri\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\andri\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\andri\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\andri\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\andri\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\andri\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\andri\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\andri\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\andri\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\andri\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\andri\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\andri\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\andri\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\andri\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\andri\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\andri\.m2\repository\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;C:\Users\andri\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\andri\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\andri\.m2\repository\org\springframework\spring-core\6.0.9\spring-core-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-jcl\6.0.9\spring-jcl-6.0.9.jar;C:\Users\andri\.m2\repository\org\springframework\spring-test\6.0.9\spring-test-6.0.9.jar;C:\Users\andri\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\andri\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\andri"/>
     <property name="user.language" value="de"/>
@@ -26,14 +26,14 @@
     <property name="java.version.date" value="2023-07-18"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database"/>
+    <property name="basedir" value="C:\Users\andri\Downloads\APi\spring-api"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\andri\AppData\Local\Temp\surefire9536995549131425092\surefirebooter-20230906145048273_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\andri\AppData\Local\Temp\surefire12268993829751684382\surefirebooter-20230906163503453_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -49,10 +49,10 @@
     <property name="java.io.tmpdir" value="C:\Users\andri\AppData\Local\Temp\"/>
     <property name="com.zaxxer.hikari.pool_number" value="15"/>
     <property name="java.version" value="20.0.2"/>
-    <property name="user.dir" value="C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database"/>
+    <property name="user.dir" value="C:\Users\andri\Downloads\APi\spring-api"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="12312"/>
+    <property name="PID" value="15800"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -64,9 +64,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testThatFullUpdateUpdatesExistingAuthor" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.703">
-    <system-out><![CDATA[2023-09-06T14:50:58.990+02:00  INFO 12312 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.devtiro.database.controllers.AuthorControllerIntegrationTests]: AuthorControllerIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2023-09-06T14:50:59.032+02:00  INFO 12312 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.devtiro.database.BooksApiApplication for test class com.devtiro.database.controllers.AuthorControllerIntegrationTests
+  <testcase name="testThatFullUpdateUpdatesExistingAuthor" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.88">
+    <system-out><![CDATA[2023-09-06T16:35:15.794+02:00  INFO 15800 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.devtiro.database.controllers.AuthorControllerIntegrationTests]: AuthorControllerIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-09-06T16:35:15.897+02:00  INFO 15800 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.devtiro.database.BooksApiApplication for test class com.devtiro.database.controllers.AuthorControllerIntegrationTests
   ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -75,33 +75,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:50:59.099+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:50:59.100+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:50:59.551+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:50:59.597+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:50:59.852+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2023-09-06T14:50:59.854+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:50:59.855+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2023-09-06T14:50:59.857+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:50:59.872+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:50:59.872+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:50:59.874+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:50:59.897+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:50:59.968+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:50:59.982+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:50:59.983+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:00.152+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:00.373+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:00.375+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:00.379+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:00.395+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 1.352 seconds (process running for 11.899)
-2023-09-06T14:51:01.096+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:01.096+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:01.104+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2023-09-06T14:51:01.107+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-09-06T16:35:16.032+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:16.032+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:16.616+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:16.675+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:16.900+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-09-06T16:35:16.902+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:16.902+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-09-06T16:35:16.906+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:16.921+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:16.921+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:16.926+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:16.956+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:17.043+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:17.066+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:17.068+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:17.311+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:17.593+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:17.593+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:17.593+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-09-06T16:35:17.616+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 1.7 seconds (process running for 13.923)
+2023-09-06T16:35:18.491+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:18.491+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:18.499+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-09-06T16:35:18.504+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatPartialUpdateExistingAuthorReturnsUpdatedAuthor" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.067">
+  <testcase name="testThatPartialUpdateExistingAuthorReturnsUpdatedAuthor" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.099">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -110,33 +110,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:01.169+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:01.170+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:01.486+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:01.511+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:01.652+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2023-09-06T14:51:01.654+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:01.654+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2023-09-06T14:51:01.656+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:01.669+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:01.670+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:01.672+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:01.690+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:01.758+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:01.769+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:01.770+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:01.907+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:02.073+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:02.073+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:02.075+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2023-09-06T14:51:02.089+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.975 seconds (process running for 13.592)
-2023-09-06T14:51:02.155+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:02.155+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:02.159+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2023-09-06T14:51:02.162+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-09-06T16:35:18.573+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:18.574+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:18.967+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:18.991+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:19.142+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-09-06T16:35:19.144+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:19.145+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-09-06T16:35:19.148+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:19.160+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:19.160+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:19.164+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:19.179+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:19.234+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:19.242+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:19.242+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:19.364+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:19.532+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:19.533+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:19.534+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-06T16:35:19.552+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 1.043 seconds (process running for 15.861)
+2023-09-06T16:35:19.651+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:19.651+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:19.656+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-09-06T16:35:19.657+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatCreateAuthorSuccessfullyReturnsHttp201Created" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.04">
+  <testcase name="testThatCreateAuthorSuccessfullyReturnsHttp201Created" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.039">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -145,33 +145,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:02.221+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:02.221+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:02.579+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:02.615+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:02.823+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
-2023-09-06T14:51:02.825+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:02.826+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
-2023-09-06T14:51:02.828+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:02.843+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:02.844+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:02.846+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:02.867+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:02.937+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:02.948+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:02.948+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:03.051+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:03.196+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:03.196+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:03.197+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2023-09-06T14:51:03.209+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 1.043 seconds (process running for 14.713)
-2023-09-06T14:51:03.251+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:03.251+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:03.254+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
-2023-09-06T14:51:03.255+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-09-06T16:35:19.697+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:19.698+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:19.974+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:20.002+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:20.183+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-09-06T16:35:20.187+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:20.188+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-09-06T16:35:20.191+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:20.205+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:20.207+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:20.209+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:20.224+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:20.296+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:20.306+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:20.306+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:20.451+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:20.594+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:20.594+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:20.596+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-06T16:35:20.606+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.944 seconds (process running for 16.913)
+2023-09-06T16:35:20.642+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:20.642+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:20.646+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-09-06T16:35:20.646+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatFullUpdateAuthorReturnsHttpStatus404WhenNoAuthorExists" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.034">
+  <testcase name="testThatFullUpdateAuthorReturnsHttpStatus404WhenNoAuthorExists" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.049">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -180,33 +180,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:03.302+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:03.302+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:03.584+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:03.615+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:03.750+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
-2023-09-06T14:51:03.752+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:03.753+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
-2023-09-06T14:51:03.755+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:03.773+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:03.774+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:03.778+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:03.799+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:03.862+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:03.871+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:03.872+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:03.999+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:04.127+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:04.128+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:04.129+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:04.140+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.88 seconds (process running for 15.643)
-2023-09-06T14:51:04.170+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:04.170+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:04.173+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
-2023-09-06T14:51:04.176+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-09-06T16:35:20.696+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:20.696+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:20.963+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:20.985+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:21.082+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-09-06T16:35:21.086+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:21.086+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-09-06T16:35:21.091+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:21.114+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:21.115+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:21.118+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:21.141+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:21.201+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:21.209+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:21.209+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:21.353+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:21.480+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:21.480+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:21.481+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-06T16:35:21.492+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.836 seconds (process running for 17.799)
+2023-09-06T16:35:21.537+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:21.537+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:21.542+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-09-06T16:35:21.548+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatGetAuthorReturnsHttpStatus404WhenNoAuthorExists" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.028">
+  <testcase name="testThatGetAuthorReturnsHttpStatus404WhenNoAuthorExists" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.029">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -215,33 +215,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:04.225+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:04.225+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:04.516+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:04.540+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:04.655+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
-2023-09-06T14:51:04.657+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn50: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:04.657+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
-2023-09-06T14:51:04.659+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:04.675+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:04.675+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:04.681+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:04.696+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:04.748+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:04.755+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:04.756+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:04.848+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:04.990+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:04.991+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:04.991+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2023-09-06T14:51:05.004+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.822 seconds (process running for 16.508)
-2023-09-06T14:51:05.031+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:05.031+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:05.035+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
-2023-09-06T14:51:05.036+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-09-06T16:35:21.599+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:21.599+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:21.783+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:21.811+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:21.905+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-09-06T16:35:21.908+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn50: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:21.908+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-09-06T16:35:21.909+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:21.920+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:21.921+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:21.923+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:21.934+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:21.989+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:21.996+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:21.997+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:22.072+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:22.169+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:22.169+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:22.169+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-09-06T16:35:22.184+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.631 seconds (process running for 18.49)
+2023-09-06T16:35:22.212+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:22.212+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:22.215+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-09-06T16:35:22.217+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatDeleteAuthorReturnsHttpStatus204ForNonExistingAuthor" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.073">
+  <testcase name="testThatDeleteAuthorReturnsHttpStatus204ForNonExistingAuthor" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.027">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -250,33 +250,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:05.092+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:05.093+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:05.477+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:05.526+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:05.634+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
-2023-09-06T14:51:05.636+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn60: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:05.636+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
-2023-09-06T14:51:05.639+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:05.655+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:05.656+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:05.658+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:05.679+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:05.729+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:05.737+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:05.738+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:05.849+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:06.028+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:06.028+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:06.029+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:06.053+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 1.012 seconds (process running for 17.557)
-2023-09-06T14:51:06.076+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:06.077+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:06.080+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
-2023-09-06T14:51:06.130+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2023-09-06T16:35:22.257+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:22.257+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:22.476+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:22.495+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:22.589+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-09-06T16:35:22.592+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn60: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:22.592+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-09-06T16:35:22.594+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:22.603+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:22.604+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:22.606+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:22.618+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:22.657+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:22.664+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:22.664+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:22.737+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:22.841+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:22.841+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:22.842+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-06T16:35:22.850+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.629 seconds (process running for 19.157)
+2023-09-06T16:35:22.872+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:22.873+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:22.877+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2023-09-06T16:35:22.879+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatListAuthorsReturnsHttpStatus200" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.083">
+  <testcase name="testThatListAuthorsReturnsHttpStatus200" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.049">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -285,33 +285,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:06.176+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:06.177+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:06.507+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:06.535+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:06.648+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
-2023-09-06T14:51:06.650+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn70: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:06.651+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
-2023-09-06T14:51:06.653+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:06.666+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:06.666+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:06.668+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:06.684+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:06.732+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:06.739+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:06.739+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:06.849+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:07.005+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:07.006+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:07.007+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:07.024+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.888 seconds (process running for 18.527)
-2023-09-06T14:51:07.082+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:07.086+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:07.104+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
-2023-09-06T14:51:07.114+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2023-09-06T16:35:22.915+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:22.915+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:23.100+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:23.123+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:23.202+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2023-09-06T16:35:23.204+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn70: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:23.205+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2023-09-06T16:35:23.207+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:23.216+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:23.216+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:23.218+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:23.229+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:23.266+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:23.272+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:23.273+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:23.406+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:23.513+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:23.513+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:23.514+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-09-06T16:35:23.523+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.639 seconds (process running for 19.83)
+2023-09-06T16:35:23.571+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:23.571+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:23.576+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2023-09-06T16:35:23.577+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatListAuthorsReturnsListOfAuthors" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.106">
+  <testcase name="testThatListAuthorsReturnsListOfAuthors" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.037">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -320,33 +320,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:07.163+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:07.163+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:07.467+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:07.512+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:07.639+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
-2023-09-06T14:51:07.640+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection conn80: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:07.641+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
-2023-09-06T14:51:07.643+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:07.662+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:07.663+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:07.666+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:07.686+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:07.744+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:07.752+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:07.758+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:07.860+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:08.001+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:08.001+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:08.002+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:08.013+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.895 seconds (process running for 19.516)
-2023-09-06T14:51:08.116+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:08.117+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:08.120+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
-2023-09-06T14:51:08.122+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2023-09-06T16:35:23.614+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:23.614+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:23.829+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:23.848+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:23.921+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2023-09-06T16:35:23.926+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection conn80: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:23.926+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2023-09-06T16:35:23.928+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:23.935+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:23.935+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:23.941+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:23.955+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:23.994+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:24.001+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:24.002+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:24.095+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:24.199+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:24.199+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:24.202+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-09-06T16:35:24.209+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.628 seconds (process running for 20.515)
+2023-09-06T16:35:24.243+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:24.243+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:24.245+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2023-09-06T16:35:24.247+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatDeleteAuthorReturnsHttpStatus204ForExistingAuthor" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.05">
+  <testcase name="testThatDeleteAuthorReturnsHttpStatus204ForExistingAuthor" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.051">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -355,33 +355,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:08.169+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:08.170+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:08.510+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:08.573+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:08.720+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
-2023-09-06T14:51:08.722+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection conn90: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:08.722+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
-2023-09-06T14:51:08.724+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:08.739+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:08.740+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:08.743+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:08.762+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:08.832+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:08.844+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:08.845+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:09.017+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:09.184+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:09.184+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:09.185+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:09.208+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 1.081 seconds (process running for 20.712)
-2023-09-06T14:51:09.265+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:09.265+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:09.267+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
-2023-09-06T14:51:09.270+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2023-09-06T16:35:24.276+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:24.277+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:24.446+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:24.465+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:24.542+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2023-09-06T16:35:24.543+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection conn90: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:24.544+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2023-09-06T16:35:24.545+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:24.555+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:24.556+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:24.557+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:24.569+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:24.617+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:24.628+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:24.628+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:24.714+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:24.809+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:24.809+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:24.810+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-06T16:35:24.821+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.57 seconds (process running for 21.127)
+2023-09-06T16:35:24.863+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:24.864+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:24.868+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2023-09-06T16:35:24.874+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatGetAuthorReturnsHttpStatus200WhenAuthorExist" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.043">
+  <testcase name="testThatGetAuthorReturnsHttpStatus200WhenAuthorExist" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.03">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -390,33 +390,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:09.362+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:09.362+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:09.755+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:09.790+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:09.898+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
-2023-09-06T14:51:09.900+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection conn100: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:09.900+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
-2023-09-06T14:51:09.903+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:09.916+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:09.916+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:09.917+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:09.930+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:09.973+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:09.981+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:09.982+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:10.073+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:10.208+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:10.209+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:10.210+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:10.220+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.946 seconds (process running for 21.724)
-2023-09-06T14:51:10.262+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:10.262+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:10.265+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
-2023-09-06T14:51:10.266+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2023-09-06T16:35:24.921+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:24.922+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:25.149+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:25.167+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:25.240+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2023-09-06T16:35:25.242+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection conn100: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:25.242+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2023-09-06T16:35:25.243+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:25.253+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:25.253+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:25.255+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:25.271+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:25.312+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:25.319+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:25.319+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:25.396+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:25.515+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:25.515+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:25.519+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-09-06T16:35:25.530+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.651 seconds (process running for 21.836)
+2023-09-06T16:35:25.557+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:25.557+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:25.562+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2023-09-06T16:35:25.563+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatGetAuthorReturnsAuthorWhenAuthorExist" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.036">
+  <testcase name="testThatGetAuthorReturnsAuthorWhenAuthorExist" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.043">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -425,33 +425,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:10.308+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:10.308+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:10.505+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:10.528+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:10.598+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
-2023-09-06T14:51:10.599+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection conn110: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:10.599+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
-2023-09-06T14:51:10.601+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:10.609+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:10.611+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:10.613+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:10.636+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:10.687+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:10.696+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:10.696+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:10.785+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:10.917+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:10.917+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:10.918+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:10.928+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.657 seconds (process running for 22.431)
-2023-09-06T14:51:10.963+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:10.963+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:10.965+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
-2023-09-06T14:51:10.968+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2023-09-06T16:35:25.597+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:25.597+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:25.757+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:25.776+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:25.842+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2023-09-06T16:35:25.843+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection conn110: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:25.843+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2023-09-06T16:35:25.844+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:25.850+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:25.850+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:25.852+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:25.861+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:25.895+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:25.910+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:25.911+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:25.970+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:26.048+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:26.048+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:26.049+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-06T16:35:26.059+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.491 seconds (process running for 22.366)
+2023-09-06T16:35:26.103+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:26.104+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:26.105+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2023-09-06T16:35:26.107+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatPartialUpdateExistingAuthorReturnsHttpStatus20Ok" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.098">
+  <testcase name="testThatPartialUpdateExistingAuthorReturnsHttpStatus20Ok" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.036">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -460,33 +460,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:11.007+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:11.008+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:11.259+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:11.287+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:11.386+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
-2023-09-06T14:51:11.388+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection conn120: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:11.388+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
-2023-09-06T14:51:11.390+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:11.404+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:11.404+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:11.405+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:11.425+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:11.469+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:11.477+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:11.477+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:11.580+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:11.745+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:11.746+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:11.747+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:11.758+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.785 seconds (process running for 23.262)
-2023-09-06T14:51:11.853+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:11.854+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:11.859+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
-2023-09-06T14:51:11.864+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2023-09-06T16:35:26.140+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:26.141+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:26.320+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:26.339+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:26.401+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2023-09-06T16:35:26.401+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection conn120: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:26.401+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2023-09-06T16:35:26.401+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:26.411+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:26.411+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:26.412+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:26.422+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:26.472+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:26.478+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:26.478+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:26.541+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:26.619+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:26.619+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:26.620+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-06T16:35:26.626+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.517 seconds (process running for 22.934)
+2023-09-06T16:35:26.654+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:26.654+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:26.656+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2023-09-06T16:35:26.666+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatCreateAuthorSuccessfullyReturnsSavedAuthor" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.027">
+  <testcase name="testThatCreateAuthorSuccessfullyReturnsSavedAuthor" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.026">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -495,33 +495,33 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:11.906+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:11.907+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:12.122+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:12.141+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:12.223+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
-2023-09-06T14:51:12.225+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection conn130: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:12.225+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
-2023-09-06T14:51:12.227+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:12.239+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:12.240+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:12.241+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:12.258+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:12.303+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:12.309+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:12.309+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:12.379+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:12.463+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:12.463+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:12.464+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:12.473+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.606 seconds (process running for 23.977)
-2023-09-06T14:51:12.498+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:12.500+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:12.501+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
-2023-09-06T14:51:12.502+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2023-09-06T16:35:26.692+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:26.692+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:26.832+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:26.852+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:26.931+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2023-09-06T16:35:26.933+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection conn130: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:26.933+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2023-09-06T16:35:26.935+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:26.944+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:26.944+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:26.945+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:26.957+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:26.996+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:27.002+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:27.003+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:27.064+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:27.161+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:27.162+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:27.162+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-09-06T16:35:27.166+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.5 seconds (process running for 23.475)
+2023-09-06T16:35:27.191+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:27.191+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:27.193+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2023-09-06T16:35:27.197+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
 ]]></system-out>
   </testcase>
-  <testcase name="testThatFullUpdateAuthorReturnsHttpStatus4200WhenAuthorExists" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.034">
+  <testcase name="testThatFullUpdateAuthorReturnsHttpStatus4200WhenAuthorExists" classname="com.devtiro.database.controllers.AuthorControllerIntegrationTests" time="0.033">
     <system-out><![CDATA[  ____              _                 _____ _____
  |  _ \            | |          /\   |  __ \_   _|
  | |_) | ___   ___ | | _____   /  \  | |__) || |
@@ -530,30 +530,30 @@
  |____/ \___/ \___/|_|\_\___/_/    \_\_|   |_____|
 ==================================================
 
-2023-09-06T14:51:12.538+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 12312 (started by andri in C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database)
-2023-09-06T14:51:12.539+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-09-06T14:51:12.726+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-09-06T14:51:12.742+02:00  INFO 12312 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
-2023-09-06T14:51:12.805+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
-2023-09-06T14:51:12.808+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection conn140: url=jdbc:h2:mem:testdb user=SA
-2023-09-06T14:51:12.808+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
-2023-09-06T14:51:12.809+02:00  INFO 12312 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-09-06T14:51:12.821+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:12.822+02:00  INFO 12312 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-09-06T14:51:12.823+02:00  INFO 12312 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
-2023-09-06T14:51:12.836+02:00  INFO 12312 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-09-06T14:51:12.869+02:00  INFO 12312 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-09-06T14:51:12.875+02:00  INFO 12312 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
-2023-09-06T14:51:12.876+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:12.943+02:00  WARN 12312 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-09-06T14:51:13.051+02:00  INFO 12312 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-09-06T14:51:13.051+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-09-06T14:51:13.052+02:00  INFO 12312 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2023-09-06T14:51:13.057+02:00  INFO 12312 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.552 seconds (process running for 24.561)
-2023-09-06T14:51:13.090+02:00  INFO 12312 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-09-06T14:51:13.090+02:00  INFO 12312 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-09-06T14:51:13.092+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
-2023-09-06T14:51:13.093+02:00  INFO 12312 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2023-09-06T16:35:27.239+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Starting AuthorControllerIntegrationTests using Java 20.0.2 with PID 15800 (started by andri in C:\Users\andri\Downloads\APi\spring-api)
+2023-09-06T16:35:27.239+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-09-06T16:35:27.393+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-06T16:35:27.407+02:00  INFO 15800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2023-09-06T16:35:27.471+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2023-09-06T16:35:27.472+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection conn140: url=jdbc:h2:mem:testdb user=SA
+2023-09-06T16:35:27.472+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2023-09-06T16:35:27.474+02:00  INFO 15800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-06T16:35:27.481+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:27.482+02:00  INFO 15800 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-06T16:35:27.483+02:00  INFO 15800 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-09-06T16:35:27.492+02:00  INFO 15800 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-06T16:35:27.526+02:00  INFO 15800 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-06T16:35:27.532+02:00  INFO 15800 --- [           main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-09-06T16:35:27.534+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:27.586+02:00  WARN 15800 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-06T16:35:27.664+02:00  INFO 15800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-06T16:35:27.664+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-06T16:35:27.665+02:00  INFO 15800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-09-06T16:35:27.673+02:00  INFO 15800 --- [           main] c.d.d.c.AuthorControllerIntegrationTests : Started AuthorControllerIntegrationTests in 0.47 seconds (process running for 23.98)
+2023-09-06T16:35:27.703+02:00  INFO 15800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-06T16:35:27.703+02:00  INFO 15800 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-09-06T16:35:27.705+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2023-09-06T16:35:27.709+02:00  INFO 15800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
 ]]></system-out>
   </testcase>
 </testsuite>
