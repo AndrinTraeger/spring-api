@@ -1,0 +1,6 @@
+com\devtiro\database\BooksApiApplicationTests.class
+com\devtiro\database\repositories\AuthorEntityRepositoryIntegrationTests.class
+com\devtiro\database\controllers\BooksControllerIntegrationTests.class
+com\devtiro\database\TestDataUtil.class
+com\devtiro\database\controllers\AuthorControllerIntegrationTests.class
+com\devtiro\database\repositories\BookEntityRepositoryIntegrationTests.class

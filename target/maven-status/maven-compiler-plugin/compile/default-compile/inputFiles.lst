@@ -1,0 +1,17 @@
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\services\AuthorService.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\config\MapperConfig.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\mappers\impl\BookMapperImpl.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\services\impl\AuthorServiceImpl.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\repositories\AuthorRepository.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\BooksApiApplication.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\domain\dto\BookDto.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\mappers\Mapper.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\repositories\BookRepository.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\services\BookService.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\controllers\BookController.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\domain\entities\BookEntity.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\services\impl\BookServiceImpl.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\domain\dto\AuthorDto.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\controllers\AuthorController.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\domain\entities\AuthorEntity.java
+C:\Users\andri\OneDrive\Desktop\spring\course-spring-boot\10_rest_api\16_pagination\database\src\main\java\com\devtiro\database\mappers\impl\AuthorMapperImpl.java
