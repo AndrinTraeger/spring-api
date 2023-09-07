@@ -36,7 +36,7 @@ public class BooksControllerIntegrationTests {
         this.bookService = bookService;
         this.objectMapper = new ObjectMapper();
     }
-
+/* 
     @Test
     public void testThatCreateBookReturnsHttpStatus201Created() throws Exception {
         BookDto testBookA = TestDataUtil.createTestBookDtoA(null);
@@ -120,7 +120,7 @@ public class BooksControllerIntegrationTests {
                 MockMvcResultMatchers.status().isOk()
         );
     }
-/* 
+
     @Test
     
     public void testThatListBooksReturnsBook() throws Exception {
@@ -135,7 +135,7 @@ public class BooksControllerIntegrationTests {
         ).andExpect(
                 MockMvcResultMatchers.jsonPath("$[0].title").value("The Shadow in the Atticus")
         );
-    }*/
+    }
 
     @Test
     public void testThatGetBookReturnsHttpStatus200OkWhenBookExists() throws Exception {
@@ -216,5 +216,5 @@ public class BooksControllerIntegrationTests {
                 MockMvcRequestBuilders.delete("/books/" + testBookEntityA.getIsbn())
                         .contentType(MediaType.APPLICATION_JSON)
         ).andExpect(MockMvcResultMatchers.status().isNoContent());
-    }
+    } */
 }

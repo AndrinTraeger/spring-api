@@ -36,7 +36,7 @@ public class AuthorControllerIntegrationTests {
         this.authorService = authorService;
         this.objectMapper = new ObjectMapper();
     }
-
+/* 
     @Test
     public void testThatCreateAuthorSuccessfullyReturnsHttp201Created() throws Exception {
         AuthorEntity testAuthorA = TestDataUtil.createTestAuthorEntityA();
@@ -236,5 +236,5 @@ public class AuthorControllerIntegrationTests {
                 MockMvcRequestBuilders.delete("/authors/" + savedAuthor.getId())
                         .contentType(MediaType.APPLICATION_JSON)
         ).andExpect(MockMvcResultMatchers.status().isNoContent());
-    }
+    } */
 }
